@@ -1,5 +1,5 @@
 describe('Página de login', () => {
-  it('Dado que o usuário esteja na página “login”, quando o usuário clicar em "Forgot your password?", então o ele deve ser redirecionado para a página "http://www.automationpractice.pl/index.php?controller=password"', () => {
+  it('Clicar em "Forgot your password?" e verificar se o usuário está sendo redirecionado para a página "http://www.automationpractice.pl/index.php?controller=password"', () => {
     
     cy.visit('http://www.automationpractice.pl/index.php?controller=authentication&back=my-account')
 
