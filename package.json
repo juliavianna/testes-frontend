@@ -1,0 +1,14 @@
+{
+  "name": "cy",
+  "description": "Testes feitos no FrontEnd da tela de login do [site](http://www.automationpractice.pl/index.php?controller=authentication&amp;back=my-account)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^13.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
